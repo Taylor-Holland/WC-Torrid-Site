@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.signin_bar{
+height: 30px;
+width:100%;
+background-color: black;
+}
+
+.title_box{
+  height: 50px;
+  width:100%;
+  display: inline-block;
+}
+
+.torrid-title{
+  height: 50px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.search_bar{
+  float: right;
+  width: 15%;
+  height: 50px;
+  display: inline;
+  margin: 0 auto;
+  /* padding-left: 60px; */
+}
+
+.menu_bar{
+height: 30px;
+width:100%;
+background-color: black;
+}
+
+header nav {
+  display: block;
+  text-align: center;
+}
+nav a:hover {
+    color: #ec008c;
+}
+header nav a {
+  display:inline-block;
+  color: #ffffff;
+   font-weight: bold;
+   padding-top: 5px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-decoration:none;
+   font-size: 10px;
+}
+main{
+  text-align: center;
+  margin: 0 auto;
+}
+.banner{
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+
+}
+
+.black-button{
+  width: 200px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  /* display: inline-block; */
+  z-index: 10;
+  position: absolute;
+  top: 250px;
+  left: 330px;
+   box-shadow: 2px 3px 8px #000000;
+}
+
+.WC-features{
+  width: 660px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feature img{
+  width: 180px;
+  height:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+.features-button1{
+  background-color: #ec008c;
+  width: 125px;
+  height: 25px;
+  padding-top: 10px;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+.features-button2{
+  background-color: #ec008c;
+  width: 125px;
+  height: 25px;
+  padding-top: 10px;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 267px;
+}
+
+.features-button3{
+  background-color: #ec008c;
+  width: 125px;
+  height: 25px;
+  padding-top: 10px;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 485px;
+}
+
+.blog-post{
+  color: white;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+}
+
+
+.blog-post-pictures{
+margin: 0 auto;
+text-align: center;
+}
+
+.blog-post-pictures img{
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding: .5em;
+  margin: 0 auto;
+}
+
+footer {
+	width: 100%;
+	height: 220px;
+	background-color: black;
+	text-align: center;
+	float: left;
+  margin: 0 auto;
+}
+
+.footer-nav{
+  width: 100px;
+  height: 175px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+footer nav a{
+  color: white;
+  font-size: 10px;
+  color: white;
+  text-decoration:none;
+}
+
+footer p{
+  color: white;
+  font-size: 8px;
+  float:none;
+}

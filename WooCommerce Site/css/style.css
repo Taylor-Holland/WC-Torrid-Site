@@ -8,6 +8,29 @@
 height: 30px;
 width:100%;
 background-color: black;
+ font-size: 10px;
+ color: white;
+}
+
+.signin_bar img{
+  float: right;
+}
+
+.sign-in{
+  float: right;
+  padding: 10px;
+}
+
+.sign-in a p{
+  display:inline-block;
+  color: white;
+   font-weight: bold;
+   text-decoration:none;
+   font-size: 10px;
+}
+
+.sign-in p a:hover {
+    color: #ec008c;
 }
 
 .title_box{
@@ -72,6 +95,15 @@ header nav a {
 main{
   text-align: center;
   margin: 0 auto;
+  width: 100%;
+  height: 600px;
+}
+
+section{
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+  display: block;
 }
 .banner{
   display: inline-block;
@@ -99,21 +131,28 @@ main{
 .black-button
 
 .WC-features{
-  width: 660px;
+  width: 80%;
   height: 200px;
   text-align: center;
-  margin: 0 auto;
+
+  position: relative;
+}
+
+.feature{
+  display: inline-block;
+  position: relative;
 }
 
 .feature img{
-  width: 180px;
+  width: 150px;
   height:200px;
   padding-left: 20px;
   padding-right: 20px;
   float: left;
+  margin: 0 auto;
 }
 
-.features-button1{
+.features-button{
   background-color: #ec008c;
   width: 125px;
   height: 25px;
@@ -121,39 +160,11 @@ main{
   color: white;
   z-index: 10;
   position: absolute;
-  margin: 0 auto;
+  margin-top: 150px;
+  margin-left: 35px;
   text-align: center;
-  margin-top: 160px;
-  margin-left: 50px;
 }
 
-.features-button2{
-  background-color: #ec008c;
-  width: 125px;
-  height: 25px;
-  padding-top: 10px;
-  color: white;
-  z-index: 10;
-  position: absolute;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 160px;
-  margin-left: 267px;
-}
-
-.features-button3{
-  background-color: #ec008c;
-  width: 125px;
-  height: 25px;
-  padding-top: 10px;
-  color: white;
-  z-index: 10;
-  position: absolute;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 160px;
-  margin-left: 485px;
-}
 
 .blog-post{
   color: white;
@@ -163,23 +174,21 @@ main{
   text-align: center;
   margin: 0 auto;
   float: left;
+  position: relative;
 }
 
 
 .blog-pic-container{
-  margin-left: auto;
-  margin-right: auto;
-text-align: center;
-width: 100%;
-height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  float:left;
 }
 
-.blog-post-pictures img{
-  width: 15%;
-  height: 15%;
-  float: left;
-  padding: .4em;
-
+.blog-pic-container img{
+  padding: 1em;
 }
 
 footer {
@@ -389,4 +398,72 @@ footer p{
 .shop-item-info{
   font-size: 12px;
   color: black;
+}
+
+.mission-title{
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.mission-title h4{
+  padding-top: 15px;
+}
+
+.mission-container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.our-mission-statement{
+  width: 100%;
+  height: 200px;
+  background-color: #ec008c;
+  color: white;
+  margin: 0 auto;
+}
+
+
+
+.our-mission-statement p{
+  padding: 4em;
+}
+
+.community-container{
+  width: 100%;
+  float: left;
+}
+
+.community-container img{
+  padding: 1em;
+}
+
+.blog-post-title{
+  width: 100%;
+  height: 30px;
+  background-color: #ec008c;
+  color: white;
+  margin: 0 auto;
+  float: left;
+}
+
+.blog-post-title p{
+  padding-top:5px;
+}
+
+
+.contact-container{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact-column{
+  width: 30%;
+  text-align: left;
+  font-size: 10px;
+  float: left;
 }
